@@ -47,8 +47,8 @@ print(f"the total pinots your opponent got was {total_opponents_score}")
 
 #Display data in a table format
 print("Opponent's Name   Your Points   Opponent's Points    Percentage of Boxes Created")
-print(f"{opponent1:<10} {your_score1:<20} {opponent1_score:<20} {your_score1*100/36}%")
-print(f"{opponent2:<10} {your_score2:<20} {opponent2_score:<20} {your_score2*100/36}%")
-print(f"{opponent3:<10} {your_score3:<20} {opponent3_score:<20} {your_score3*100/36}%")
-print(f"{opponent4:<10} {your_score4:<20} {opponent4_score:<20} {your_score4*100/36}%")
-print(f"{opponent5:<10} {your_score5:<20} {opponent5_score:<20} {your_score5*100/36}%") 
+print(f"{opponent1:<20} {your_score1:<20} {opponent1_score:<20} {your_score1*100/36}%")
+print(f"{opponent2:<20} {your_score2:<20} {opponent2_score:<20} {your_score2*100/36}%")
+print(f"{opponent3:<20} {your_score3:<20} {opponent3_score:<20} {your_score3*100/36}%")
+print(f"{opponent4:<20} {your_score4:<20} {opponent4_score:<20} {your_score4*100/36}%")
+print(f"{opponent5:<20} {your_score5:<20} {opponent5_score:<20} {your_score5*100/36}%") 
